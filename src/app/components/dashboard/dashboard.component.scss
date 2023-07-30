@@ -1,0 +1,44 @@
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 auto;
+
+  .form-field {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .btn {
+    width: 100%;
+    min-width: 250px;
+    height: 60px;
+  }
+}
+
+.cat-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+
+  .cat-item {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 100%;
+      border: 3px solid rgba(51, 56, 105, 0.55);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
